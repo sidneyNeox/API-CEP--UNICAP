@@ -1,0 +1,46 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Form */
+#order-form-container {
+  max-width: 700px;
+}
+
+
+#address-form div {
+padding: 5px 0px;
+
+}
+
+#order-form-container select {
+  padding: 1rem 0.75rem;
+}
+
+#order-form-container label {
+  color: var(--text-color);
+}
+
+#order-form-container input:disabled,
+#order-form-container select:disabled {
+  background-color: #dadada;
+  color: #515151;
+}
+
+#order-form-container input:focus {
+  border-color: var(--secondary-color);
+}
+
+#order-form-container .form-floating > label {
+  left: 1em;
+}
+
+
+/* Responsive */
+@media (min-width: 500px) {
+  #save-btn {
+    width: 8em;
+  }
+}
